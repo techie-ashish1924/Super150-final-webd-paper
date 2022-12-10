@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Final Project</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/5a010fa73c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+	<img src="img/laptop_image.jpeg" alt="laptop-header">
+	<h2 style="font-style: italic;">JAVASCRIPT PLAYGROUND</h2>
+</header>
+
+<main>
+	<div class="left_side">
+		<div class="card" id="story-hold">
+			<div class="head">Book Title</div>
+			<div class="body">
+				<textarea name="story-box" id="story_print" readonly></textarea>
+			</div>
+		</div>
+	</div>
+	<div class="right_side">
+		<div class="card" id="search">
+			<div class="head">SEARCH</div>
+			<div class="body">
+				<form id="form">
+					<label><input type="text"></label>
+					<button type="submit">search</button>
+				</form>
+			</div>
+		</div>
+		<div class="card">
+			<div class="head">Select a Book</div>
+			<div class="body">
+				<ul>
+					<li><a onclick= "SelectBook(10)">Alice In Wonderland</a></li>
+					<li><a onclick="SelectBook(20)">Lord of the Rings</a></li>
+					<li><a onclick="SelectBook(30)">Dr. Jekyll and Mr. Hyde</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="card" id="most-used">
+			<div class="head">Most Used Words</div>
+			<div class="body">
+				SOMETEXT <br>
+				SOMETEXT <br>
+				SOMETEXT <br>
+				SOMETEXT <br>
+				SOMETEXT
+			</div>
+		</div>
+		<div class="card" id="least-used">
+			<div class="head">Least Used Words</div>
+			<div class="body">
+				SOME TEXT <br>
+				SOME TEXT <br>
+				SOME TEXT <br>
+				SOME TEXT <br>
+				SOME TEXT
+			</div>
+		</div>
+		<div class="card" id="doc-stats">
+			<div class="head">Document Stats</div>
+			<div class="body">
+				SOME TEXT <br>
+				SOME TEXT
+			</div>
+		</div>
+	</div>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
