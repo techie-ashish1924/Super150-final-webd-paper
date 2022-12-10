@@ -81,8 +81,16 @@ textarea {
     border: none;
 }
 
+#story-hold > .body {
+    height: 90%;
+}
+
 #story-hold {
     height: 80%;
+}
+
+#story_print{
+    height: 100%;
 }
 
 #search-bar {
